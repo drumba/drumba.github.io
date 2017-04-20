@@ -1,0 +1,65 @@
+body {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
+
+.blue-1 {
+	color: #4b647a;
+}
+
+.yellow-1 {
+	color: #ffcc80;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 0.9;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-weight: normal;
+	margin: 0 0 1.8em;
+}
+
+#title {
+	position: relative;
+	padding: 15% 0 8% 0;
+	background: #fff;
+}
+
+#title h1 span {
+	display: block;
+}
+
+.post .post-title {
+	padding: 15px 0 0;
+	margin: 0;
+}
+
+.post .post-meta span {
+	color: #b8bfc6;
+}
+
+.post:nth-child(2n+2) .post-content {
+	padding-right: 50px;
+}
+
+.post:nth-child(2n+1) .post-content {
+	padding-left: 50px;
+}
